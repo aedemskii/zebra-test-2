@@ -11,18 +11,28 @@ body {
 
 .content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding: 20px;
 
-  ul {
-    padding: 0;
-
-    & li {
-      padding-left: 10px;
-    }
+  & h2 {
+    margin-bottom: 10px;
   }
 
-  div {
+  & ul ul {
     padding-left: 20px;
+  }
+
+  & .content__participants > div ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  & .content__error {
+    font-size: 26px;
+    color: rgb(189, 54, 54);
   }
 }
 

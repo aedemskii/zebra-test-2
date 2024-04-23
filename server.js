@@ -37,6 +37,10 @@ app.get('/api/*', (req, res) => {
 
 
 app.get('/*', (req, res) => {
+  if (!structure) {
+    res.status(404).send('Not found');
+    return;
+  }
   res.render('index', { structure: structure });
 });
 
@@ -59,24 +63,37 @@ const getFeildForPath = (paths) => {
 };
 
 const getParticipantsData = (participants) => {
+  const getPersonsData = (data, participant) => {
+    return participant.persons.map((person) => {
+      const personData = data.persons.find((item) => item.id === person);
+      if (!personData) {
+        return null;
+      }
+      return {
+        name: personData.name,
+        position: personData.position
+      };
+    });
+  }
+
   return participants.map((participant) => {
+    if (!participant?.logo) {
+      return null;
+    }
     const data = data_2.find((item) => item.logoId === participant.logo);
     if (!data) {
       return null;
     }
-    return {
-      role: participant.role,
-      company: data.company,
-      persons: participant.persons.reduce((acc, id) => {
-        const person = data.persons.find((item) => item.id === id);
-        if (person) {
-          acc.push({
-            name: person.name,
-            position: person.position
-          });
-        }
-        return acc;
-      }, [])
-    };
+    const result = {};
+    if (participant.role) {
+      result.role = participant.role;
+    }
+    if (data.company) {
+      result.company = data.company;
+    }
+    if (participant.persons) {
+      result.persons = getPersonsData(data, participant);
+    }
+    return result;
   });
 };

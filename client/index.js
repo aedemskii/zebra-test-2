@@ -1,11 +1,15 @@
 import './styles.scss';
 import { requestData } from './services.js';
+import { DATA_REQUEST_ERROR } from './const.js';
 import { createOrganizationsList, createParticipantsList } from './utils.js';
 
 const main = () => {
   const organizations = document.getElementById('organizations');
   const participants = document.getElementById('participants');
+  const error = document.getElementById('error');
+
   const initPath = window.location.pathname;
+
   requestData(initPath, renderData, renderError);
 
   const menu = document.querySelector('.menu');
@@ -17,11 +21,13 @@ const main = () => {
   function renderData(data) {
     organizations.innerHTML = createOrganizationsList(data.organizations);
     participants.innerHTML = createParticipantsList(data.participants);
+    error.innerHTML = '';
   }
 
   function renderError() {
-    organizations.innerHTML = 'Ошибка при загрузке данных';
+    organizations.innerHTML = '';
     participants.innerHTML = '';
+    error.innerHTML = DATA_REQUEST_ERROR;
   }
 
   function  handleLinkClick(target) {

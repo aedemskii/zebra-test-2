@@ -1,39 +1,51 @@
-const createStringList = (data) => {
-  return data.reduce((acc, item) => {
+import { 
+  ORGANIZATIONS,
+  PARTICIPANTS,
+  ROLE,
+  EMPLOYEES,
+  POSITION
+} from "./const.js";
+
+export const createOrganizationsList = (data) => {
+  const title = `<h2>${ORGANIZATIONS}:</h2>`;
+  const list = data.reduce((acc, item) => {
     acc += `<li>${item}</li>`;
     return acc;
   }, '<ul>') + '</ul>';
+  return title + '<div>' + list + '</div>';
 };
 
-export const createOrganizationsList = (data) => {
-  const title = '<h2>Организации:</h2>';
-  const ul = createStringList(data);
-  return title + ul;
-};
-
-const createObjectList = (data) => {
-  let res = '<div>';
-
-  data.forEach((obj) => {
-    let htmlContent = '<ul>';
-    Object.keys(obj).forEach((key) => {
-      if (obj[key] instanceof Array) {
-        htmlContent += createObjectList(obj[key]);
-        return;
-      } else {
-        htmlContent += `<li><strong>${key}:</strong> ${obj[key]}</li>`;
+const createParticipant = (data) => {
+  let res = '<li>';
+  if (!data.company) {
+    return;
+  }
+  res += `<div><strong>${data.company}</strong></div>`;
+  if (data.role) {
+    res += `<div>${ROLE}: ${data.role}</div>`;
+  }
+  if (data.persons) {
+    res += `<div>${EMPLOYEES}:</div>`;
+    res += '<ul>';
+    data.persons.forEach((person) => {
+      res += '<li>';
+      res += `<div>${person.name}</div>`;
+      if (person.position) {
+        res += `<div>${POSITION}: ${person.position}</div>`;
       }
+      res += '</li>';
     });
-    htmlContent += '</ul>';
-
-    res += htmlContent;
-  });
-
-  return res + '</div>';
+    res += '</ul>';
+  }
+  res += '</li>';
+  return res;
 };
 
 export const createParticipantsList = (data) => {
-  const title = '<h2>Участники:</h2>';
-  const ul = createObjectList(data);
-  return title + ul;
+  const title = `<h2>${PARTICIPANTS}:</h2>`;
+  const ul = data.reduce((acc, item) => {
+    acc += createParticipant(item);
+    return acc;
+  }, '<ul>') + '</ul>';
+  return title + '<div>' + ul + '</div>';
 };
