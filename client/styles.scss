@@ -12,6 +12,18 @@ body {
 .content {
   flex: 1;
   padding: 20px;
+
+  ul {
+    padding: 0;
+
+    & li {
+      padding-left: 10px;
+    }
+  }
+
+  div {
+    padding-left: 20px;
+  }
 }
 
 .menu {

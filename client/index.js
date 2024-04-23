@@ -1,5 +1,6 @@
 import './styles.scss';
 import { requestData } from './services.js';
+import { createOrganizationsList, createParticipantsList } from './utils.js';
 
 const main = () => {
   const organizations = document.getElementById('organizations');
@@ -14,8 +15,8 @@ const main = () => {
   menu.addEventListener('click', menuClickHandler);
 
   function renderData(data) {
-    organizations.innerHTML = data.organizations;
-    participants.innerHTML = data.participants;
+    organizations.innerHTML = createOrganizationsList(data.organizations);
+    participants.innerHTML = createParticipantsList(data.participants);
   }
 
   function renderError() {
