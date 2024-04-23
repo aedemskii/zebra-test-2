@@ -8,6 +8,9 @@ const app = express();
 app.set('view engine', 'ejs');
 
 
+app.use(express.static('dist'));
+
+
 app.get('/', (req, res) => {
   res.render('index', {});
 });
@@ -28,4 +31,27 @@ const getFeildForPath = (paths) => {
     }
   }
   return result;
+};
+
+const getParticipantsData = (participants) => {
+  return participants.map((participant) => {
+    const data = data_2.find((item) => item.logoId === participant.logo);
+    if (!data) {
+      return null;
+    }
+    return {
+      role: participant.role,
+      company: data.company,
+      persons: participant.persons.reduce((acc, id) => {
+        const person = data.persons.find((item) => item.id === id);
+        if (person) {
+          acc.push({
+            name: person.name,
+            position: person.position
+          });
+        }
+        return acc;
+      }, [])
+    };
+  });
 };
