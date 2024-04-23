@@ -1,0 +1,345 @@
+# Подробные данные о компаниях участниках
+data:
+  - logoId: acra_ru.svg
+    company: АКРА (Аналитическое Кредитное Рейтинговое Агентство)
+    persons:
+      - name: Amber Lubowitz DDS
+        id: id_1
+        position: руководитель группы оценки рисков устойчивого развития
+  - logoId: dastrategia_ru.svg
+    company: Агентство корпоративного развития «Да-Стратегия»
+    persons:
+      - name: Rosie McLaughlin
+        id: id_1
+        position: партнер, генеральный директор
+      - name: Mr. Santos Wilderman
+        id: id_2
+        position: заместитель директора по вопросам отчетности и устойчивого развития
+  - logoId: psb_ru.svg
+    company: Промсвязьбанк
+    persons:
+      - name: Mrs. Sonia Kling DVM
+        id: id_1
+        position: начальник управления устойчивого развития
+      - name: Brett Erdman
+        id: id_2
+        position: руководитель проектов Управления устойчивого развития
+  - logoId: rspp_ru.svg
+    company: РСПП (Российский союз промышленников и предпринимателей)
+    persons:
+      - name: Jerome Brown
+        id: id_1
+        position: управляющий директор управления корпоративной ответственности, устойчивого развития и социального предпринимательства
+  - logoId: europe-university_ru.svg
+    company: ИЦ ЭНЕРПО, Европейский университет в Санкт-Петербурге
+    persons:
+      - name: Timothy Bergstrom
+        id: id_1
+        position: исполнительный директор
+      - name: Lonnie Kuhic
+        id: id_2
+        position: к. э. н., научный сотрудник
+  - logoId: fbk_ru.svg
+    company: ФБК (Финансовые и бухгалтерские консультанты)
+    persons:
+      - name: Emmett Herzog
+        id: id_1
+        position: партнер, директор департамента корпоративного управления и устойчивого развития
+      - name: Jasmine Yundt I
+        id: id_2
+        position: заместитель директора департамента корпоративного управления и устойчивого развития
+  - logoId: tehnologia-doveria_ru.svg
+    company: «Технологии Доверия»
+    persons:
+      - name: Sophie Anderson
+        id: id_1
+        position: директор технологической практики, руководитель направления по автоматизации ESG-процессов
+      - name: Shelia Gleichner
+        id: id_2
+        position: партнер, руководитель практики устойчивого развития и корпоративного управления (ESG) в России
+      - name: Zachary Nicolas
+        id: id_3
+        position: менеджер технологической практики
+  - logoId: b1_ru.svg
+    company: Группа компаний Б1
+    persons:
+      - name: Rogelio Medhurst V
+        id: id_1
+        position: партнер, руководитель отдела услуг в области устойчивого развития, руководитель отдела консультирования по вопросам бухгалтерского учета и финансовой отчетности в России
+      - name: Jean Bernier
+        id: id_2
+        position: старший менеджер отдела услуг в области устойчивого развития в России
+      - name: Troy Greenholt
+        id: id_3
+        position: старший менеджер отдела услуг в области устойчивого развития в России
+      - name: Raquel Thompson
+        id: id_4
+        position: старший менеджер группы консультирования по вопросам финансовой отчетности и бухгалтерского учета
+      - name: Jesse Mann
+        id: id_5
+        position: партнер, руководитель отдела по предоставлению услуг в области устойчивого развития
+      - name: Dr. Glen Wilderman
+        id: id_6
+        position: ассоциированный партнер, отдел по предоставлению услуг в области устойчивого развития
+      - name: Alan Effertz
+        id: id_7
+        position: менеджер отдела услуг в области устойчивого развития в России
+  - logoId: kept_en.svg
+    company: Kept
+    persons:
+      - name: Tamara Kuhn
+        id: id_1
+        position: партнер, руководитель Группы операционных рисков и устойчивого развития
+      - name: Kelley Miller
+        id: id_2
+        position: заместитель директора Группы операционных рисков и устойчивого развития
+  - logoId: delovye-reshenia_ru.svg
+    company: Деловые Решения и Технологии
+    persons:
+      - name: Dr. Lamar Upton Jr.
+        id: id_1
+        position: директор, руководитель группы по оказанию услуг в области устойчивого развития
+      - name: Janice Rath
+        id: id_2
+        position: старший менеджер группы по оказанию услуг в области устойчивого развития
+      - name: Eric Will
+        id: id_3
+        position: младший менеджер группы по оказанию услуг в области устойчивого развития
+      - name: Nichole Konopelski
+        id: id_4
+        position: Директор, услуги в области устойчивого развития, Департамент управленческого консультирования
+  - logoId: zebra_en.svg
+    company: Zebra Corporate Communications
+    persons:
+      - name: Joe Lehner
+        id: id_1
+        position: основатель и генеральный директор
+      - name: Taylor Spinka
+        id: id_2
+        position: директор по стратегии
+      - name: Miss Eva Corwin
+        id: id_3
+        position: XBRL-директор
+      - name: Albert Zboncak
+        id: id_4
+        position: R&D-директор
+  - logoId: interfax_ru.svg
+    company: Информационное агентство «Интерфакс»
+    persons:
+      - name: Marcia Dooley
+        id: id_1
+        position: первый заместитель генерального директора
+      - name: Wendy Emard
+        id: id_2
+        position: директор по развитию цифрового бизнеса
+      - name: Delia Herman
+        id: id_3
+        position: руководитель проектов службы раскрытия информации
+  - logoId: platform-infragreen_ru.svg
+    company: Экспертно-аналитическая платформа «ИНФРАГРИН»
+    persons:
+      - name: Marcus Hegmann
+        id: id_1
+        position: руководитель Экспертно-аналитической платформы «Инфраструктура и финансы устойчивого развития»
+  - logoId: bank-russia_ru.svg
+    company: Центральный банк Российской Федерации
+    persons:
+      - name: Jesse Macejkovic
+        id: id_1
+  - logoId: nationalreiting-agency_ru.svg
+    company: НРА (Национальное рейтинговое агентство)
+    persons:
+      - name: Marty Hessel
+        id: id_1
+        position: к. э. н, CFA, CIA, руководитель рейтинговой службы
+      - name: Russell Goyette
+        id: id_2
+        position: старший директор рейтингов финансовых компаний
+  - logoId: moskovskaya-birzha_ru.svg
+    company: Московская Биржа
+    persons:
+      - name: Virginia Abernathy-Ankunding
+        id: id_1
+        position: руководитель направления устойчивого развития
+      - name: Pat Stamm
+        id: id_2
+        position: главный специалист направления устойчивого развития
+  - logoId: forum_ru.svg
+    company: Аналитический центр «Форум»
+    persons:
+      - name: Keith Erdman
+        id: id_1
+        position: исполнительный директор
+      - name: Eric Green
+        id: id_2
+        position: советник по развитию финансового рынка
+  - logoId: sberbank_ru.svg
+    company: Сбербанк
+    persons:
+      - name: Teri Streich-Schowalter
+        id: id_1
+        position: исполнительный директор Дирекции по ESG
+      - name: Ernest Beatty
+        id: id_2
+        position: руководитель направления Дирекции по ESG
+  - logoId: dom-rf_ru.svg
+    company: Банк ДОМ.РФ
+    persons:
+      - name: Amy Lockman
+        id: id_1
+        position: директор подразделения «Устойчивое развитие»
+      - name: Dora Witting
+        id: id_2
+        position: заместитель директора подразделения «Рынки капитала»
+      - name: Thelma Toy-Franecki I
+        id: id_3
+        position: главный специалист подразделения «Устойчивое развитие и международное сотрудничество»
+      - name: Tiffany Denesik
+        id: id_4
+        position: главный специалист подразделения «Рынки капитала»
+  - logoId: novikom_ru.svg
+    company: Новикомбанк
+    persons:
+      - name: Olga Lakin
+        id: id_1
+        position: старший вице-президент
+      - name: Ignacio Daugherty-Becker
+        id: id_2
+        position: вице-президент - директор Департамента развития бизнеса
+  - logoId: expert-ra_en.svg
+    company: Рейтинговое агентство «Эксперт РА»
+    persons:
+      - name: Jonathan Kuhlman
+        id: id_1
+        position: директор группы рейтингов устойчивого развития
+  - logoId: psb_ru.svg
+    company: Промсвязьбанк
+    persons:
+      - name: June Haag
+        id: id_1
+        position: начальник Управления устойчивого развития
+      - name: Kenny Bogan
+        id: id_2
+        position: руководитель проектов Управления устойчивого развития
+  - logoId: schetnaya-palata_ru.svg
+    company: Счетная палата Российской Федерации
+    persons:
+      - name: Kate Walker
+        id: id_1
+        position: аудитор
+      - name: Anne Brakus
+        id: id_2
+        position: директор департамента аудита экономического развития
+      - name: Jerald Hayes
+        id: id_3
+        position: начальник инспекции по комплексному анализу устойчивого развития
+      - name: Jerry Leannon
+        id: id_4
+        position: главный инспектор
+  - logoId: rossiyskiy-institut_ru.svg
+    company: Российский институт директоров
+    persons:
+      - name: Ray Davis
+        id: id_1
+        position: директор РИД
+  - logoId: association-managers_ru.svg
+    company: Ассоциация менеджеров
+    persons:
+      - name: Jody Lang
+        id: id_1
+        position: исполнительный директор Ассоциации менеджеров
+  - logoId: association-bank_ru.svg
+    company: Ассоциация банков России
+    persons:
+      - name: Juan Morar
+        id: id_1
+        position: вице-президент
+      - name: Lorenzo Koch I
+        id: id_2
+        position: начальник Информационно-аналитического управления
+      - name: Betty Olson
+        id: id_3
+        position: ведущий аналитик
+  - logoId: center-invest_ru.svg
+    company: Центр-инвест
+    persons:
+      - name: Lucille Weber IV
+        id: id_1
+        position: председатель Совета Директоров, профессор, д.э.н.
+      - name: Belinda Farrell
+        id: id_2
+        position: заместитель Председателя Правления, к.э.н.
+      - name: Josefina Krajcik
+        id: id_3
+        position: заместитель Председателя Правления по отчетности, аналитике и финансам, к.э.н.
+  - logoId: vss_ru.svg
+    company: Всероссийский союз страховщиков
+    persons:
+      - name: Pedro Gerhold
+        id: id_1
+        position: Вице-президент ВСС
+  - logoId: mellingvp_en.svg
+    company: «Меллинг, Войтишкин и партнеры»
+    persons:
+      - name: Larry Baumbach
+        id: id_1
+        position: старший юрист
+  - logoId: orlova-ermolenko_ru.svg
+    company: Юридическая фирма Orlova\Ermolenko
+    persons:
+      - name: Becky Boyle
+        id: id_1
+        position: партнер, кандидат юридических наук
+  - logoId: esg_en.svg
+    company: ESG World
+    persons:
+      - name: Troy Hartmann
+        id: id_1
+        position: ''
+      - name: Renee Deckow
+        id: id_2
+        position: ''
+  - logoId: neustoychivoe-razvitie_ru.svg
+    company: Неустойчивое развитие
+    persons:
+      - name: Inez Gerhold
+        id: _zaglushka_
+        position: ''
+  - logoId: skolkovo_en.svg
+    company: Центр устойчивого развития Школы управления СКОЛКОВО
+    persons:
+      - name: Miriam Fahey II
+        id: id_1
+        position: директор
+      - name: Fred Bahringer
+        id: id_2
+        position: ведущий исследователь
+  - logoId: vshe_ru.svg
+    company: Школа финансов факультета экономических наук НИУ ВШЭ, Центр управления устойчивым развитием компаний, ВШБ НИУ ВШЭ
+    persons:
+      - name: Lonnie Kemmer
+        id: id_1
+        position: руководитель Школы финансов, доктор экономических наук, ординарный профессор
+      - name: Israel Crooks
+        id: id_2
+        position: заместитель руководителя Школы финансов, кандидат экономических наук, доцент факультета экономических наук
+      - name: Lynda Johnson
+        id: id_3
+        position: доктор экономических наук, доцент факультета экономических наук
+      - name: Ernestine Lockman
+        id: id_4
+        position: кандидат экономических наук, доцент факультета экономических наук
+      - name: Sophia Cremin
+        id: id_5
+        position: >-
+          директор центра управление устойчивым развитием компаний (ESG-центр), кандидат экономических наук, академический директор аспирантской школы по менеджменту, академический руководитель
+          магистерской программы «Управление устойчивым развитием компании», доцент департамента стратегического и международного менеджмента
+      - name: Kellie Gislason
+        id: id_6
+        position: доктор социально-экономических наук, доцент департамента стратегического и международного менеджмента, научный руководитель магистерской программы «Управление устойчивым развитием компании»
+  - logoId: gos-duma_ru.svg
+    company: Государственная Дума
+    persons:
+      - name: Kurt Green III
+        id: id_1
+        position: координатор Экспертного совета по&nbsp;устойчивому развитию и&nbsp;зеленому финансированию комитета Государственной Думы по&nbsp;финансовому рынку

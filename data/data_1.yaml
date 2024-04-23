@@ -1,0 +1,304 @@
+data:
+  - name: investment-landscape-russian-energy-sector
+    participants:
+      - logo: "acra_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+      - logo: "platform-infragreen_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "expert-ra_en.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "АКРА (Аналитическое кредитное рейтинговое агентство)"
+      - "НРА (Национальное рейтинговое агентство)"
+      - "НКР (Национальные Кредитные Рейтинги)"
+      - "Рейтинговое агентство «Эксперт&nbspРА»"
+      - "ФБК (Финансовые и&nbsp;бухгалтерские консультанты)"
+      - "Kept"
+      - "Группа компаний Б1"
+      - "Московская Государственная Экспертиза"
+      - "«ИНТЕРЭКСПЕРТИЗА-ВЕРИФИКАЦИЯ»"
+      - "«Грин»"
+      - "Консультационно-экспертный центр"
+      - "Научно-технический центр «ПРАВО»"
+      - "Пачоли Консалтинг"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: oil-gas-industry-russia
+    participants:
+      - logo: "nationalreiting-agency_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "novikom_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "platform-infragreen_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "Кредитные рейтинговые агентства"
+      - "Управленческие, финансовые и бухгалтерские консультационные компании"
+      - "Государственные экспертные учреждения"
+      - "Иные консультационно-экспертные центры"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: coal-industry
+    participants:
+      - logo: "moskovskaya-birzha_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "platform-infragreen_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "forum_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "Московская Биржа"
+      - "СПБ&nbsp;Биржа"
+      - "СПВБ (Санкт-Петербургская Валютная Биржа)"
+      - "«Биржа «Санкт-Петербург»"
+      - "«ЦТС»"
+      - "NASDAQ"
+      - "LSE"
+      - "HKEX"
+      - "B3"
+      - "ASX"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: conventional-power-generation-industry
+    participants:
+      - logo: "bank-russia_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+    organizations:
+      - "ВЭБ.РФ"
+      - "Министерство экономического развития Российской Федерации"
+      - "Министерство финансов Российской Федерации"
+      - "Народный банк Китая"
+      - "IFRS Foundation"
+      - "SBI"
+      - "СФС (Совет по&nbsp;финансовой стабильности)"
+      - "БМР (Банк международных расчетов)"
+      - "NGFS"
+      - "G20 (Группа&nbsp;20)"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: 'nuclear-energy-industry'
+    participants:
+      - logo: "forum_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "platform-infragreen_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "moskovskaya-birzha_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "«Горизонт КФ»"
+      - "EM"
+      - "ДРТ (Деловые Решения и&nbsp;Технологии)"
+      - "«Технологии Доверия»"
+      - "Группа компаний Б1"
+      - "Kept"
+      - "Infomost Communications"
+      - "Zebra Corporate Communications"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: renewable-energy
+    participants:
+      - logo: "sberbank_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "platform-infragreen_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "dom-rf_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+          - "id_2"
+          - "id_3"
+          - "id_4"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "Сбербанк"
+      - "ВЭБ.РФ"
+      - "ВТБ"
+      - "Газпромбанк"
+      - "Росбанк"
+      - "МКБ"
+      - "Центр-инвест"
+      - "Банк ДОМ.РФ"
+      - "Nordea"
+      - "Rabobank"
+      - "BNP Paribas"
+      - "Credit Agricole"
+      - "DBS Bank"
+      - "Swedbank"
+      - "Standard Chartered"
+      - "ING Bank"
+      - "KfW"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: hydrogen-energy
+    participants:
+      - logo: "dom-rf_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+          - "id_3"
+          - "id_4"
+      - logo: "sberbank_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+          - "id_2"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "Банк ДОМ.РФ"
+      - "Альфа-Банк"
+      - "Сбербанк КИБ"
+      - "Банк ГПБ"
+      - "БК Регион"
+      - "ВТБ Капитал Трейдинг"
+      - "Московский кредитный банк"
+      - "Промсвязьбанк"
+      - "Росбанк"
+      - "Совкомбанк"
+      - "BNP Paribas"
+      - "BofA Securities"
+      - "Citigroup"
+      - "Deutsche Bank"
+      - "Goldman Sachs"
+      - "HSBC"
+      - "J.P. Morgan"
+      - "Morgan Stanley"
+      - "Societe Generale"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: procedures-business-processes-cooperation-project
+    participants:
+      - logo: "acra_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "platform-infragreen_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "expert-ra_en.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+      - logo: "bank-russia_ru.svg"
+        role: "validator"
+        persons:
+          - "id_1"
+    organizations:
+      - "АКРА (Аналитическое кредитное рейтинговое агентство)"
+      - "НКР (Национальные Кредитные Рейтинги)"
+      - "НРА (Национальное рейтинговое агентство)"
+      - "Рейтинговое агентство «Эксперт&nbspРА»"
+      - "АК&М"
+      - "EcoVadis"
+      - "RAEX"
+      - "ISS-ESG"
+      - "MSCI"
+      - "S&P Global ESG"
+      - "Sustainable Fitch"
+      - "Sustainalytics"
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+    added: 2023
+
+  - name: project-financing-insurance-energy-industry
+    participants:
+      - logo: "psb_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+    organizations:
+      - "Совет Федерации Российской Федерации"
+      - "Правительство Российской Федерации"
+      - "Государственная Дума Российской Федерации"
+      - "Центральный Банк Российской Федерации"
+      - "Министерство природных ресурсов и&nbsp;экологии Российской Федерации"
+      - "Министерство экономического развития Российской Федерации"
+      - "Министерство промышленности и&nbsp;торговли Российской Федерации"
+      - "Министерство сельского хозяйства Российской Федерации"
+      - "Министерство труда и&nbsp;социальной защиты Российской Федерации"
+      - "Министерство науки и&nbsp;ысшего образования Российской Федерации"
+      - "Министерство энергетики Российской Федерации"
+      - "Центральный Банк Российской Федерации"
+    added: 2023
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."
+
+  - name: general-information-china-russia-cooperation
+    participants:
+      - logo: "schetnaya-palata_ru.svg"
+        role: "author"
+        persons:
+          - "id_1"
+          - "id_2"
+          - "id_3"
+          - "id_4"
+    organizations:
+      - "Счетная палата Российской Федерации"
+    added: 2023
+    date: "Редакция от&nbsp;декабря 2023&nbsp;года."

@@ -1,0 +1,436 @@
+# Структура сайта
+# - маршрутизация
+# - меню
+# - файловая структура контента
+ar:
+  ru:
+    title: Мой отчет
+    children:
+      - name: user-guide
+        title: Инструкции по использованию годового отчета
+      - name: cookies-policy
+        title: Политика использования Cookie
+      - name: search
+        title: Поиск
+      - name: downloads
+        title: Центр загрузки
+      - name: sitemap
+        title: Карта сайта
+      - name: history
+        title: История просмотренных страниц
+      - name: interactive-analysis
+        title: Интерактивный анализ
+      - name: investment-landscape-russian-energy-sector
+        title: Инвестиционная среда в&nbsp;топливно-энергетическом комплексе России
+        shortTitle: Инвестиционная среда
+        children:
+          - name: institutions-governing
+            title: Институты управления в&nbsp;отраслях ТЭК
+          - name: key-regulations
+            title: 'Основные документы, определяющие работу и&nbsp;развитие ТЭК'
+          - name: government-regulation
+            title: Государственное регулирование ТЭК
+          - name: russian-tax-system
+            title: Российская налоговая система
+          - name: granting-rights
+            title: Система регулирования недропользования. Предоставление недр в&nbsp;пользование
+            shortTitle: Система регулирования недропользования
+          - name: rules-subsoil-use
+            title: Система регулирования недропользования. Правила пользования недрами
+          - name: construction-facilities-fuel-producing-industries
+            title: Строительство объектов в&nbsp;отраслях ТЭК
+            shortTitle: Строительство объектов
+          - name: customs-regulation
+            title: Таможенное регулирование
+          - name: fx-control-regulatory-aspects
+            title: Валютный контроль и&nbsp;другие направления регулирования предпринимательства
+            shortTitle: Валютный контроль и&nbsp;другие направления регулирования
+          - name: national-investment-policy
+            title: Инвестиционная политика государства
+          - name: special-business-regimes
+            title: Особые режимы осуществления предпринимательской деятельности
+            shortTitle: Режимы осуществления предпринимательской деятельности
+          - name: support-foreign-investments
+            title: Поддержка иностранных инвестиций
+      - name: oil-gas-industry-russia
+        title: Нефтегазовая отрасль России
+        shortTitle: Нефтегазовая отрасль
+        children:
+          - name: resource-base-oil
+            title: 'Ресурсная база и&nbsp;добыча нефти, транспортная инфраструктура'
+            children:
+              - name: resource-base
+                title: Ресурсная база нефти
+              - name: production
+                title: Добыча нефти
+              - name: transportation-infrastructure
+                title: Инфраструктура транспортировки нефти
+              - name: domestic-supplies-exports
+                title: Поставки нефти в&nbsp;Россию и&nbsp;на&nbsp;экспорт
+          - name: oilfield-services
+            title: Нефтесервисные услуги
+            children:
+              - name: industry-structure
+                title: 'Нефтесервисные услуги: структура отрасли'
+                shortTitle: Структура отрасли
+              - name: market-size-upside-potential
+                title: 'Нефтесервис: объемы и&nbsp;потенциал рынка'
+                shortTitle: Объемы и&nbsp;потенциал рынка
+          - name: oil-refining-sales-petroleum-products
+            title: Нефтепереработка и&nbsp;сбыт нефтепродуктов
+            children:
+              - name: oil-refining
+                title: Нефтепереработка
+              - name: petroleum-product-output
+                title: Производство нефтепродуктов
+              - name: domestic-demand-exports
+                title: Внутренний спрос и&nbsp;экспорт
+              - name: infrastructure
+                title: Инфраструктура
+              - name: economics
+                title: Экономика
+              - name: retail-sales-petroleum-products
+                title: Розничная реализация нефтепродуктов
+          - name: technology-development-manufacturing-oil
+            title: 'Развитие технологий, производство оборудования, инновационный менеджмент в&nbsp;нефтяной отрасли'
+            children:
+              - name: technology-development
+                title: "Развитие технологий и инновационный менеджмент"
+              - name: technologies-equipment-manufacturing
+                title: Технологии и&nbsp;производство оборудования
+              - name: shipbuilding-cluster
+                title: Судостроительный кластер на&nbsp;Дальнем Востоке
+          - name: resource-base-gas-exploration-production
+            title: 'Ресурсная база, разведка и&nbsp;добыча газа'
+            children:
+              - name: resource-base
+                title: Ресурсная база газа
+              - name: natural-associated-production
+                title: Добыча природного и&nbsp;попутного газа
+          - name: gas-preparation-processing-transportation-sales-products
+            title: 'Подготовка, переработка, транспорт и&nbsp;сбыт газа и&nbsp;продуктов его переработки'
+            children:
+              - name: treatment-processing
+                title: Подготовка и&nbsp;переработка газа
+              - name: sales-processing-products
+                title: Сбыт газа и&nbsp;продуктов его переработки
+              - name: transportation-infrastructure
+                title: Газотранспортная инфраструктура
+          - name: lng-production
+            title: Производство сжиженного природного газа
+          - name: technology-development-equipment-manufacturing-innovation
+            title: 'Развитие технологий, производство оборудования, инновационный менеджмент в&nbsp;газовой отрасли'
+            children:
+              - name: innovation-management
+                title: Развитие технологий и&nbsp;инновационный менеджмент
+              - name: equipment-manufacturing
+                title: Технологии и&nbsp;производство оборудования
+          - name: resource-base-production-petrochemicals
+            title: Ресурсная база и&nbsp;производство продукции нефтегазохимии
+            children:
+              - name: rpetrochemicals
+                title: Ресурсная база и&nbsp;производство продукции нефтехимии
+                shortTitle: Ресурсная база и&nbsp;производство продукции нефтехимии
+              - name: gas-chemical-manufacturers
+                title: Производство продукции газохимии
+          - name: petro-gas-chemical-industry
+            title: 'Развитие технологий, производство оборудования, инновационный менеджмент в&nbsp;нефтегазохимии'
+            children:
+              - name: innovation-management
+                title: Развитие технологий и&nbsp;инновационный менеджмент
+              - name: technologies-equipment-manufacturing
+                title: Технологии и&nbsp;производство оборудования
+          - name: tax-treatment-oil-gas-industry
+            title: Законодательство в&nbsp;нефтегазовой отрасли
+          - name: natural-monopolies
+            title: Регулирование естественных монополий
+          - name: national-investment-policy-oil-gas-production
+            title: Государственная политика в&nbsp;области инвестиций в&nbsp;добычу нефти и&nbsp;газа
+          - name: national-policy-construction-facilities
+            title: Государственная политика в&nbsp;области строительства объектов
+          - name: national-policy-equipment-manufacturing-services
+            title: Государственная политика в&nbsp;области производства оборудования и&nbsp;сервиса
+          - name: international-cooperation-projects
+            title: Проекты международного сотрудничества
+          - name: map-prospective-projects
+            title: Карта перспективных проектов
+          - name: projects-technology-development-implementation
+            title: Проекты развития и&nbsp;внедрения технологий
+          - name: ghg-pollutant-emissions-reduction
+            title: Инициативы по&nbsp;снижению объемов парниковых и&nbsp;вредных выбросов
+            children:
+              - name: reduction-projects
+                title: Проекты по&nbsp;снижению парниковых выбросов
+              - name: '-prevent-adverse-environmental-impact'
+                title: Проекты по&nbsp;недопущению негативного воздействия на&nbsp;окружающую среду
+      - name: coal-industry
+        title: Угольная отрасль России
+        shortTitle: Угольная отрасль
+        children:
+          - name: coal-resource-base
+            title: Ресурсная база угля
+          - name: coal-production
+            title: Добыча угля
+          - name: coal-processing-preparation-marketing
+            title: 'Переработка, обогащение и&nbsp;реализация угля'
+            children:
+              - name: coal-processing-preparation
+                title: Переработка и&nbsp;обогащение угля
+              - name: coal-supplies
+                title: Поставки угля
+          - name: technologies-equipment-manufacturing
+            title: Технологии и&nbsp;производство оборудования
+          - name: technology-development-innovation-management
+            title: Развитие технологий и&nbsp;инновационный менеджмент
+          - name: coal-legislation
+            title: Законодательство в&nbsp;угольной промышленности
+          - name: national-investment-policy
+            title: Государственная политика в&nbsp;области инвестиций
+          - name: procurement-mining-equipment
+            title: Закупка оборудования в&nbsp;угольной отрасли
+          - name: construction-coal-industry-facilities
+            title: Строительство объектов в&nbsp;угольной отрасли
+          - name: overview-international-cooperation-projects-map-prospective-projects
+            title: 'Обзор проектов международного сотрудничества, карта перспективных проектов'
+            shortTitle: 'Проекты международного сотрудничества, карта перспективных проектов'
+            children:
+              - name: coal-processing-preparation
+                title: Переработка и&nbsp;обогащение угля
+              - name: coal-supplies
+                title: Поставки угля
+                children:
+                  - name: 'general-information-on-rosatom'
+                    title: Общие сведения о деятельности Госкорпорации «Росатом»
+                  - name: 'long-term-track-record-cooperation-between-realm-nuclear-energy'
+                    title: Развитие технологий и&nbsp;инновационный менеджмент
+                  - name: 'ongoing-cooperation-between-realm-nuclear-energy'
+                    title: Текущий этап российско-китайского сотрудничества в сфере атомной энергетики
+                  - name: 'promising-joint-projects'
+                    title: Перспективные проекты российско-китайского сотрудничества
+                  - name: 'overview-investment-opportunities'
+                    title: Обзор проектов для возможности инвестирования китайской стороной
+          - name: projects-technology-development-implementation
+            title: Проекты развития и&nbsp;внедрения технологий
+          - name: projects-minimising-environmental-impact
+            title: Проекты по&nbsp;снижению экологической нагрузки
+      - name: conventional-power-generation-industry
+        title: Традиционная электроэнергетика
+        children:
+          - name: capacity-output-by-generation-type
+            title: Мощности и&nbsp;динамика производства по&nbsp;видам генерации
+          - name: power-transmission-distribution
+            title: Передача и&nbsp;распределение энергии
+          - name: technology-development-innovation-management
+            title: Развитие технологий и&nbsp;инновационный менеджмент
+          - name: technologies-equipment-manufacturing
+            title: Технологии и&nbsp;производство оборудования
+            children:
+              - name: conventional-power-generation-industry
+                title: Сектор традиционной генерации
+              - name: electric-grid-sector
+                title: Электросетевой комплекс
+          - name: power-industry-legislation
+            title: Законодательство в&nbsp;электроэнергетической отрасли
+          - name: investments-power-generation-projects
+            title: Инвестиции в&nbsp;проекты электроэнергетики
+          - name: construction-power-generation-facilities
+            title: Строительство объектов в&nbsp;электроэнергетике
+            children:
+              - name: 'general-information-on-rosatom'
+                title: Общие сведения о деятельности Госкорпорации «Росатом»
+              - name: 'long-term-track-record-cooperation-between-realm-nuclear-energy'
+                title: Развитие технологий и&nbsp;инновационный менеджмент
+                children:
+                  - name: conventional-power-generation-industry
+                    title: Сектор традиционной генерации
+                  - name: electric-grid-sector
+                    title: Электросетевой комплекс
+              - name: 'ongoing-cooperation-between-realm-nuclear-energy'
+                title: Текущий этап российско-китайского сотрудничества в сфере атомной энергетики
+              - name: 'promising-joint-projects'
+                title: Перспективные проекты российско-китайского сотрудничества
+              - name: 'overview-investment-opportunities'
+                title: Обзор проектов для возможности инвестирования китайской стороной
+                children:
+                  - name: conventional-power-generation-industry
+                    title: Сектор традиционной генерации
+                  - name: electric-grid-sector
+                    title: Электросетевой комплекс
+          - name: procurement-power-generation-industry
+            title: Закупка оборудования в&nbsp;электроэнергетике
+          - name: overview-international-cooperation-projects
+            title: Обзор проектов международного сотрудничества
+            children:
+              - name: conventional-power-generation
+                title: Сектор традиционной генерации
+              - name: electric-grid-sector
+                title: Электросетевой комплекс
+          - name: description-map-prospective-conventional-power-generation
+            title: Описание и&nbsp;карта перспективных проектов в&nbsp;традиционной электроэнергетике
+          - name: projects-technology-development-implementation
+            title: Проекты развития и&nbsp;внедрения технологий
+            children:
+              - name: conventional-power-generation-industry
+                title: Сектор традиционной генерации
+              - name: electric-grid-sector
+                title: Электросетевой комплекс
+          - name: projects-reduce-emissions-prevent-aei
+            title: Проекты по&nbsp;снижению выбросов и&nbsp;недопущению негативного воздействия на&nbsp;окружающую среду
+            shortTitle: Проекты по&nbsp;снижению выбросов и&nbsp;недопущению НВОС
+      - name: 'nuclear-energy-industry'
+        title: Атомная энергетика России
+        shortTitle: Атомная энергетика
+        children:
+          - name: 'general-information-on-rosatom'
+            title: Общие сведения о деятельности Госкорпорации «Росатом»
+          - name: 'long-term-track-record-cooperation-between-realm-nuclear-energy'
+            title: Развитие технологий и&nbsp;инновационный менеджмент
+          - name: 'ongoing-cooperation-between-realm-nuclear-energy'
+            title: Текущий этап российско-китайского сотрудничества в сфере атомной энергетики
+          - name: 'promising-joint-projects'
+            title: Перспективные проекты российско-китайского сотрудничества
+          - name: 'overview-investment-opportunities'
+            title: Обзор проектов для возможности инвестирования китайской стороной
+      - name: renewable-energy
+        title: Возобновляемая энергетика
+        children:
+          - name: overview
+            title: Текущее состояние развития возобновляемой энергетики в&nbsp;России
+          - name: plans-develop-renewable
+            title: Планы развития возобновляемой энергетики в&nbsp;России
+          - name: technology-development-innovation-management
+            title: Развитие технологий и&nbsp;инновационный менеджмент
+          - name: technologies-equipment-manufacturing
+            title: Технологии и&nbsp;производство оборудования
+          - name: regulatory-policy-renewable-industry
+            title: Нормативное регулирование сектора возобновляемой энергетики в&nbsp;России
+          - name: investment-promotion-localisation-support-programmes
+            title: Программы стимулирования инвестиций и&nbsp;поддержки локализации
+          - name: investments-res-projects
+            title: Инвестиции в&nbsp;проекты возобновляемой энергетики
+          - name: construction-renewable-energy-facilities
+            title: Строительство объектов возобновляемой энергетики
+          - name: procurement-equipment-renewable-energy
+            title: Закупка оборудования
+          - name: overview-international-cooperation-projects
+            title: Обзор проектов международного сотрудничества
+          - name: description-map-prospective-projects-renewable-energy-generation-industry
+            title: Описание и&nbsp;карта перспективных проектов возобновляемой энергетики
+          - name: projects-technology-development-implementation
+            title: Проекты развития и&nbsp;внедрения технологий
+          - name: projects-reduce-emissions-prevent-aei
+            title: Проекты по&nbsp;снижению выбросов и&nbsp;недопущению НВОС
+      - name: hydrogen-energy
+        title: Водородная энергетика
+        children:
+          - name: hydrogen-production
+            title: Производство водорода
+          - name: governing-institutions-framework-action-plan-hydrogen-energy-development
+            title: 'Институты управления, концепция и&nbsp;план мероприятий по&nbsp;развитию водородной энергетики'
+            shortTitle: 'Институты управления, мероприятия по&nbsp;развитию водородной энергетики'
+          - name: cooperation-opportunities-pilot-projects-hydrogen-energy
+            title: Возможности сотрудничества и&nbsp;пилотные проекты в&nbsp;сфере развития водородной энергетики
+            shortTitle: Сотрудничество и&nbsp;проекты в&nbsp;сфере развития водородной энергетики
+      - name: procedures-business-processes-cooperation-project
+        title: Процедуры и&nbsp;бизнес-процессы в&nbsp;проектах сотрудничества
+        children:
+          - name: projects
+            title: Описание процедур и&nbsp;бизнес-процессов в&nbsp;проектах
+            shortTitle: Процедуры и&nbsp;бизнес-процессы в&nbsp;проектах
+          - name: legislation-russia
+            title: Законодательство в&nbsp;сфере закупочной деятельности в&nbsp;России
+          - name: investment-projects-production-processing-oil-gas-coal-construction-industrial-facilities
+            title: "Процедуры и&nbsp;бизнес-процессы. Инвестиционные проекты в&nbsp;области добычи и&nbsp;переработки нефти, газа и&nbsp;угля"
+          - name: procurement-services-equipment-supplies
+            title: 'Закупки услуг, оборудования и&nbsp;товарно-материальных ценностей'
+            children:
+              - name: projects
+                title: Описание процедур и&nbsp;бизнес-процессов в&nbsp;проектах
+                shortTitle: Процедуры и&nbsp;бизнес-процессы в&nbsp;проектах
+              - name: legislation-russia
+                title: Законодательство в&nbsp;сфере закупочной деятельности в&nbsp;России
+              - name: investment-projects-production-processing-oil-gas-coal-construction-industrial-facilities
+                title: "Процедуры и&nbsp;бизнес-процессы. Инвестиционные проекты в&nbsp;области добычи и&nbsp;переработки нефти, газа и&nbsp;угля"
+              - name: procurement-services-equipment-supplies
+                title: 'Закупки услуг, оборудования и&nbsp;товарно-материальных ценностей'
+              - name: oilfield-services-projects
+                title: Процедуры и&nbsp;бизнес-процессы в&nbsp;нефтесервисных проектах
+          - name: oilfield-services-projects
+            title: Процедуры и&nbsp;бизнес-процессы в&nbsp;нефтесервисных проектах
+      - name: project-financing-insurance-energy-industry
+        title: Проектное финансирование и&nbsp;страхование в&nbsp;энергетической отрасли
+        children:
+          - name: definition-stages
+            title: Определение и&nbsp;этапы привлечения проектного финансирования
+          - name: key-requirements
+            title: Базовые требования проектного финансирования
+          - name: legislation-local-aspects
+            title: Законодательство и&nbsp;особенности проектного финансирования в&nbsp;России
+          - name: main-instruments-sources
+            title: Основные инструменты и&nbsp;источники проектного финансирования в&nbsp;России
+          - name: government-guarantees-support
+            title: Государственные гарантии и&nbsp;поддержка
+          - name: project-financing-cycle
+            title: Основные процедуры проектного финансирования
+          - name: key-project-insurance-requirements
+            title: Базовые требования для&nbsp;страхования проекта
+          - name: investment-project-risk-insurance
+            title: Основные процедуры страхования рисков инвестиционных проектов
+          - name: types-investment-project-insurance
+            title: Виды страхования инвестиционных проектов
+          - name: laws-applicable-investment-project-risk-insurance
+            title: Законодательство в&nbsp;сфере страхования рисков инвестиционных проектов
+      - name: general-information-china-russia-cooperation
+        title: Особенности и&nbsp;обобщение опыта российско-китайского сотрудничества в&nbsp;сфере ТЭК
+        shortTitle: Особенности и&nbsp;обобщение опыта российско-китайского сотрудничества в&nbsp;сфере ТЭК
+        children:
+          - name: cooperation-sector-special-aspects
+            title: Особенности российско-китайского сотрудничества в&nbsp;сфере ТЭК
+            shortTitle: Особенности российско-китайского сотрудничества в&nbsp;сфере ТЭК
+          - name: successful-examples-cooperation-between
+            title: Успешный опыт российско-китайского сотрудничества в&nbsp;сфере ТЭК
+            shortTitle: Опыт российско-китайского сотрудничества
+            children:
+            - name: cooperation-sector-special-aspects
+              title: Особенности российско-китайского сотрудничества в&nbsp;сфере ТЭК
+              shortTitle: Особенности российско-китайского сотрудничества в&nbsp;сфере ТЭК
+              children:
+                - name: cooperation-sector-special-aspects
+                  title: Особенности российско-китайского сотрудничества в&nbsp;сфере ТЭК
+                  shortTitle: Особенности российско-китайского сотрудничества в&nbsp;сфере ТЭК
+                - name: successful-examples-cooperation-between
+                  title: Успешный опыт российско-китайского сотрудничества в&nbsp;сфере ТЭК
+                  shortTitle: Опыт российско-китайского сотрудничества
+            - name: successful-examples-cooperation-between
+              title: Успешный опыт российско-китайского сотрудничества в&nbsp;сфере ТЭК
+              shortTitle: Опыт российско-китайского сотрудничества
+            - name: credit-ratings-companies
+              title: Кредитные рейтинги Российской Федерации и&nbsp;работающих в&nbsp;сфере ТЭК российских компаний
+              shortTitle: Кредитные рейтинги России и&nbsp;работающих в&nbsp;ТЭК российских компаний
+              children:
+                - name: credit-ratings-companies
+                  title: Кредитные рейтинги Российской Федерации и&nbsp;работающих в&nbsp;сфере ТЭК российских компаний
+                  shortTitle: Кредитные рейтинги России и&nbsp;работающих в&nbsp;ТЭК российских компаний
+                - name: suggestions-fostering-cooperation
+                  title: Предложения по&nbsp;развитию российско-китайского сотрудничества в&nbsp;сфере ТЭК
+                  shortTitle: Развитие российско-китайского сотрудничества
+            - name: suggestions-fostering-cooperation
+              title: Предложения по&nbsp;развитию российско-китайского сотрудничества в&nbsp;сфере ТЭК
+              shortTitle: Развитие российско-китайского сотрудничества
+          - name: credit-ratings-companies
+            title: Кредитные рейтинги Российской Федерации и&nbsp;работающих в&nbsp;сфере ТЭК российских компаний
+            shortTitle: Кредитные рейтинги России и&nbsp;работающих в&nbsp;ТЭК российских компаний
+          - name: suggestions-fostering-cooperation
+            title: Предложения по&nbsp;развитию российско-китайского сотрудничества в&nbsp;сфере ТЭК
+            shortTitle: Развитие российско-китайского сотрудничества
+      - name: foreword
+        title: Предисловие
+      - name: about-investment-atlas
+        title: Об&nbsp;Атласе инвестиций
+      - name: glossary
+        title: Глоссарий
+      - name: limitation-liability
+        title: Ограничение ответственности и Благодарности
+      - name: list-russian-companies-organisations
+        title: Перечень российских компаний и организаций в «Атласе инвестиций» с адресами и контактами
+        shortTitle: Перечень российских компаний и организаций

@@ -8,6 +8,7 @@
 </head>
 <body>
     <ul class="menu">
+        <% renderMenu(structure.children) %>
     </ul>
     <div class="content">
         <div id="organizations" class="content__organizations"></div>
@@ -15,3 +16,21 @@
     </div>
 </body>
 </html>
+
+<% function renderMenu(menuItems, path = '') { %>
+    <% menuItems.forEach(item => { %>
+        <li class="<%= item.children ? 'menu-item has-children' : 'menu-item' %>">
+            <div class="menu-item__title">
+                <% if (item.children) { %>
+                    <div class="menu-item__submenu-button">+</div>
+                <% } %>
+                <a class="menu-item__link" href="<%= path + item.name %>"><%= item.title.replaceAll('&nbsp;', ' ') %></a>
+            </div>
+            <% if (item.children) { %>
+                <ul class="menu-item__submenu">
+                    <% renderMenu(item.children, path + item.name + '/') %>
+                </ul>
+            <% } %>
+        </li>
+    <% }); %>
+<% } %>
