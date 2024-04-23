@@ -12,6 +12,10 @@ const main = () => {
 
   requestData(initPath, renderData, renderError);
 
+  window.addEventListener('popstate', () => {
+    requestData(window.location.pathname, renderData, renderError);
+  });
+
   const menu = document.querySelector('.menu');
   if (!menu) {
     return;
